@@ -19,12 +19,15 @@ Em breve:
 
 
 
-E as softskills: (em breve)
+E as softskills:
 
-- Diversidade e inclusão;
-- LinkedIn;
+- [Diversidade e inclusão;](u1-logicaProgramação/carreiras/)
+- [LinkedIn;](u1-logicaProgramação/carreiras/);
+- [Gestão do tempo;](u1-logicaProgramação/carreiras/);
+
+Em breve: 
+
 - Comunicação;
-- Gestão do tempo;
 - Ansiedade e autosabotagem.
 
 
