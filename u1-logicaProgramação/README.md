@@ -4,7 +4,7 @@ Este módulo abordou os seguintes temas técnicos:
 
 - [Setup de Ferramentas](/hello-world/README.md) 
 - [Git e GitHub básico](/hello-world/README.md) 
-- [Variáveis](/exercicios-backend-variaveis/)
+- [Variáveis](exercicios-backend-variaveis/)
 - [Condicionais](/exercicios-backend-condicionais/README.md)
 - [Arrays e Loops](/exercicios-backend-arrays-loops/README.md)
 - [Práticas de arrays e loops](/exercicios-backend-praticas/README.md)
