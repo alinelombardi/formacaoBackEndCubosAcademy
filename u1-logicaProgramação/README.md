@@ -10,9 +10,10 @@ Este módulo abordou os seguintes temas técnicos:
 - [Práticas de arrays e loops](exercicios-backend-praticas/)
 - [Objetos](exercicios-backend-objetos/)
 - [Funções](exercicios-backend-funcoes/)
+- [Métodos de String](exercicios-backend-metodos-strings/)
 
 Em breve: 
-- [Métodos de String]()
+
 - [Métodos de Arrays]()
 - [Métodos de Arrays II]()
 - [Métodos de Arrays III]()
