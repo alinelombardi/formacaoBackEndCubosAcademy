@@ -5,14 +5,19 @@ Este repositório é dedicado aos exercícios da aula "Funções" do Módulo 1 d
 ### Temas abordados
 
 - Porque usar funções;
-- Notação de colchetes;
-- Shorthand;
-- Desestruturação de Objetos;
-- Spread Operator;
-- Desestruturação de Arrays; 
+- Criando a primeira função;
+- Funções com parâmetros;
+- Funções com retorno;
+- Escopo de uma função;
+- Arrow function;
+- DRY - Dont Repeat Yourself;
+- Métodos;
+- console.log é um método;
+- Exercícios.
 
 ## Exercícios
 
+0.  Práticas durante a aula
 1.  Sistema de correção de provas
 2.  Carro
 3.  Carrinho de um e-commerce

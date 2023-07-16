@@ -8,10 +8,10 @@ Este módulo abordou os seguintes temas técnicos:
 - [Condicionais](exercicios-backend-condicionais/)
 - [Arrays e Loops](exercicios-backend-arrays-loops/)
 - [Práticas de arrays e loops](exercicios-backend-praticas/)
+- [Objetos](exercicios-backend-objetos/)
+- [Funções](exercicios-backend-funcoes/)
 
 Em breve: 
-- [Objetos]()
-- [Funções]()
 - [Métodos de String]()
 - [Métodos de Arrays]()
 - [Métodos de Arrays II]()

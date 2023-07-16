@@ -1,6 +1,5 @@
-const pessoa = {
-    nome: "Aline",
-    idade: 37,
-    profissao: "desenvolvedora"
+function imprimirOla () {
+    console.log("Olá")
 }
 
+imprimirOla()
