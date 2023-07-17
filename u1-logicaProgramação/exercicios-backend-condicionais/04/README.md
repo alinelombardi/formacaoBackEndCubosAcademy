@@ -1,4 +1,3 @@
-
 # Exercício 04
 
 ## Dando nome as pedras

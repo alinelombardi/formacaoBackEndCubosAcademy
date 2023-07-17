@@ -1,4 +1,3 @@
-
 # Exercício 03
 
 ## Encontre o 10

@@ -1,4 +1,3 @@
-
 # Exercício 04
 
 ## Calcular juros compostos
@@ -35,7 +34,7 @@ O seu programa deverá imprimir o montante com base no input recebido.
 
 ---
 
-Preencha a checklist para finalizar o exercício:
+
 
 - [ ] Resolver o exercício revendo a aula se necessário
 - [ ] Adicionar as mudanças aos commits (`git add .` para adicionar todos os arquivos ou `git add nome_do_arquivo` para adicionar um arquivo específico)

@@ -1,4 +1,3 @@
-
 # Exercício 11
 
 ## Filtrando números

@@ -1,4 +1,3 @@
-
 # Exercício 11
 
 ## Valor da parcela do Sucesso Compartilhado

@@ -1,4 +1,3 @@
-
 # Exercício 05
 
 ## Filtrando apenas os pares

@@ -1,4 +1,3 @@
-
 # Exercício 03
 
 ## Mensagem de apresentação

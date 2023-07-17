@@ -1,4 +1,3 @@
-
 # Exercício 10
 
 ## Compras online

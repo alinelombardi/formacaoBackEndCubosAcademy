@@ -1,4 +1,3 @@
-
 # Exercício 16
 
 ## Rematrícula Escolar

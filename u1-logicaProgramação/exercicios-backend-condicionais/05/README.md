@@ -1,4 +1,3 @@
-
 # Exercício 05
 
 ## Peneira de Vôlei

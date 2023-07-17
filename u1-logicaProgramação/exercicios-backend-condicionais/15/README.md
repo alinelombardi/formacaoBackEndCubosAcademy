@@ -1,4 +1,3 @@
-
 # Exercício 15
 
 ## Nome para exibição

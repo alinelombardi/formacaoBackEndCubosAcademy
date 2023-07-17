@@ -1,4 +1,3 @@
-
 # Exercício 06
 
 ## Soma dos pares

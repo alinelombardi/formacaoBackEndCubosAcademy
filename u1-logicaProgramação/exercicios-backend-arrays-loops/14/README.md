@@ -1,4 +1,3 @@
-
 # Exercício 14
 
 ## Imprima os menores
@@ -69,7 +68,7 @@ Fique a vontade para testar com outros valores e também para aumentar o tamanho
 
 ---
 
-Preencha a checklist para finalizar o exercício:
+
 
 - [ ] Resolver o exercício revendo a aula se necessário
 - [ ] Adicionar as mudanças aos commits (`git add .` para adicionar todos os arquivos, ou `git add nome_do_arquivo` para adicionar um arquivo específico)

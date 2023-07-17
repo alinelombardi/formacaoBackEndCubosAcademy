@@ -1,4 +1,3 @@
-
 # Exercício 17
 
 ## Extrato de Compra Online

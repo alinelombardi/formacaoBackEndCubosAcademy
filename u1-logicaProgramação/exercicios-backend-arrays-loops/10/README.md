@@ -1,4 +1,3 @@
-
 # Exercício 10
 
 ## Para pensar um pouco mais

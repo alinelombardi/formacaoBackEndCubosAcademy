@@ -1,4 +1,3 @@
-
 # Exercício 09
 
 ## Encontrando Carlos na multidão

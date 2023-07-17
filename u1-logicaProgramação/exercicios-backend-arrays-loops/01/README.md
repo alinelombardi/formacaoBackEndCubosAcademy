@@ -1,4 +1,3 @@
-
 # Exercício 01
 
 ## Soma total

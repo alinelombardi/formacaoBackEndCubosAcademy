@@ -1,4 +1,3 @@
-
 # Exercício 08
 
 ## Meus pets

@@ -1,4 +1,3 @@
-
 # Exercício 13
 
 ## Compra com Desconto

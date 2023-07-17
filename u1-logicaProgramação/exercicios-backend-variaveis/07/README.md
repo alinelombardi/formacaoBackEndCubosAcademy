@@ -1,4 +1,3 @@
-
 # Exercício 07
 
 ## Casos de COVID-19
@@ -40,12 +39,3 @@ $$ P = 4000 $$
 Isso significa que, após 7 dias, o total de pessoas infectadas será de 4000, uma vez que inicialmente existiam 1000 pessoas infectadas.
 
 ---
-
-Preencha a checklist para finalizar o exercício:
-
-- [ ] Resolver o exercício revendo a aula se necessário
-- [ ] Adicionar as mudanças aos commits (`git add .` para adicionar todos os arquivos ou `git add nome_do_arquivo` para adicionar um arquivo específico)
-- [ ] Commitar a cada mudança significativa ou na finalização do exercício (`git commit -m "Mensagem do commit"`)
-- [ ] Pushar os commits na sua branch na origem (`git push origin nome-da-branch`)
-
-###### tags: `lógica` `módulo 1` `exercício de casa` `matemática` `nodeJS`

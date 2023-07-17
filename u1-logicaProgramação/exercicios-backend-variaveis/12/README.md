@@ -1,4 +1,3 @@
-
 # Exercício 12
 
 ## Taxa de Juros
@@ -37,12 +36,3 @@ Imprima a taxa de juros com uma mensagem seguindo o formato a seguir (substituin
 "O seu financiamento de 60000 reais teve uma taxa de juros de 1,703%, pois após 24 meses você teve que pagar 90000 reais."
 
 ---
-
-Preencha a checklist para finalizar o exercício:
-
-- [ ] Resolver o exercício revendo a aula se necessário
-- [ ] Adicionar as mudanças aos commits (`git add .` para adicionar todos os arquivos ou `git add nome_do_arquivo` para adicionar um arquivo específico)
-- [ ] Commitar a cada mudança significativa ou na finalização do exercício (`git commit -m "Mensagem do commit"`)
-- [ ] Pushar os commits na sua branch na origem (`git push origin nome-da-branch`)
-
-###### tags: `lógica` `módulo 1` `exercício de casa` `matemática` `nodeJS`

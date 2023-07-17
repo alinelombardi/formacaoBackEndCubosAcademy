@@ -1,4 +1,3 @@
-
 # Exercício 09
 
 ## Soma dos ângulos internos de um polígono
@@ -40,12 +39,3 @@ $$ a = 120 $$
 Imprima na tela o valor da soma dos ângulos internos $S$ e o valor de cada ângulo do polígono $a$ .
 
 ---
-
-Preencha a checklist para finalizar o exercício:
-
-- [ ] Resolver o exercício revendo a aula se necessário
-- [ ] Adicionar as mudanças aos commits (`git add .` para adicionar todos os arquivos ou `git add nome_do_arquivo` para adicionar um arquivo específico)
-- [ ] Commitar a cada mudança significativa ou na finalização do exercício (`git commit -m "Mensagem do commit"`)
-- [ ] Pushar os commits na sua branch na origem (`git push origin nome-da-branch`)
-
-###### tags: `lógica` `módulo 1` `exercício de casa` `matemática` `nodeJS`

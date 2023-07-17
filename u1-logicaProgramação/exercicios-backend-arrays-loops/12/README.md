@@ -1,4 +1,3 @@
-
 # Exercício 12
 
 ## Fila do banco
@@ -59,7 +58,7 @@ Teste também alterando o número de nomes dentro de cada array.
 
 ---
 
-Preencha a checklist para finalizar o exercício:
+
 
 - [ ] Resolver o exercício revendo a aula se necessário
 - [ ] Adicionar as mudanças aos commits (`git add .` para adicionar todos os arquivos, ou `git add nome_do_arquivo` para adicionar um arquivo específico)

@@ -1,4 +1,3 @@
-
 # Exercício 02
 
 ## Par ou ímpar

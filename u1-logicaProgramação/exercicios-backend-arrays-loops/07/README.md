@@ -1,4 +1,3 @@
-
 # Exercício 07
 
 ## Filtrando nomes com a letra A

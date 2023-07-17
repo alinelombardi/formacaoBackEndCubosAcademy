@@ -1,4 +1,3 @@
-
 # Exercício 04
 
 ## Adicionando maior idade

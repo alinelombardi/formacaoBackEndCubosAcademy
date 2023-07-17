@@ -1,4 +1,3 @@
-
 # Exercício 04
 
 ## Múltiplos de 3
@@ -21,7 +20,7 @@ Portanto, deverá ser impresso o console da seguinte forma:
 
 ---
 
-Preencha a checklist para finalizar o exercício:
+
 
 -   [ ] Resolver o exercício revendo a aula se necessário
 -   [ ] Adicionar as mudanças aos commits (`git add .` para adicionar todos os arquivos ou `git add nome_do_arquivo` para adicionar um arquivo específico)

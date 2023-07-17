@@ -1,4 +1,3 @@
-
 # Exercício 06
 
 ## Separando jovens de adultos

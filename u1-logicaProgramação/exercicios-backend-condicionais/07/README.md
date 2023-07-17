@@ -1,4 +1,3 @@
-
 # Exercício 07
 
 ## Isenção de impostos

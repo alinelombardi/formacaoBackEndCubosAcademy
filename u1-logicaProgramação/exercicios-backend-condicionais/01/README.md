@@ -1,4 +1,3 @@
-
 # Exercício 01
 
 ## Pedra, papel ou tesoura

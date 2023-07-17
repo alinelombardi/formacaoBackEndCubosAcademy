@@ -1,4 +1,3 @@
-
 # Exercício 14
 
 ## Controle de Consumo de Água Ingerida

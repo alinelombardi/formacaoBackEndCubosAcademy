@@ -1,4 +1,3 @@
-
 # Exercício 12
 
 ## Dia da Semana

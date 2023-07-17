@@ -1,4 +1,3 @@
-
 # Exercício 09
 
 ## Fila de pedidos

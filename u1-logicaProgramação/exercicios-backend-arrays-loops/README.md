@@ -14,8 +14,7 @@ Este repositório é dedicado aos exercícios da aula "Arrays e Loops" do Módul
 - For tradicional;
 - For of;
 - Iterando sobre strings e break;
-- Exercícios.  
-# Exercícios - Arrays e Loops
+- Exercícios.  # Exercícios - Arrays e Loops
 
 1. Soma total
 2. Contando letras

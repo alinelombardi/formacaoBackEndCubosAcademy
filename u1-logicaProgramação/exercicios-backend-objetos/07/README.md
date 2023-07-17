@@ -1,4 +1,3 @@
-
 # Exercício 07
 
 ## Numerando capítulos de um livro
