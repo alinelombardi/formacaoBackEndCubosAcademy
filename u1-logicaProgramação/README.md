@@ -11,10 +11,10 @@ Este módulo abordou os seguintes temas técnicos:
 - [Objetos](exercicios-backend-objetos/)
 - [Funções](exercicios-backend-funcoes/)
 - [Métodos de String](exercicios-backend-metodos-strings/)
+- [Métodos de Arrays](exercicios-backend-metodos-arrays/)
 
 Em breve: 
 
-- [Métodos de Arrays]()
 - [Métodos de Arrays II]()
 - [Métodos de Arrays III]()
 
@@ -23,8 +23,8 @@ Em breve:
 E as softskills:
 
 - [Diversidade e inclusão;](u1-logicaProgramação/carreiras/)
-- [LinkedIn;](u1-logicaProgramação/carreiras/);
-- [Gestão do tempo;](u1-logicaProgramação/carreiras/);
+- [LinkedIn;](u1-logicaProgramação/carreiras/)
+- [Gestão do tempo;](u1-logicaProgramação/carreiras/)
 
 Em breve: 
 
