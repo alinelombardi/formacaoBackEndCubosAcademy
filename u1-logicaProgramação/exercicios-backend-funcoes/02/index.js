@@ -1,12 +1,18 @@
 const carro = {
     ligado: false,
     velocidade: 0,
+    devolveStatus: function () {
+        return this.ligado ? "ligado" : "desligado";
+    },
+    imprimeStatus: function () {
+        console.log(`Carro ${this.devolveStatus()}. Velocidade: ${this.velocidade}.`);
+    },
     ligar: function () {
         if(this.ligado === true) {
             console.log("Este carro já está ligado.");
         } else {
             this.ligado = true;
-            console.log(`Carro ${this.ligado === false ? "desligado" : "ligado"}. Velocidade: ${this.velocidade}.`)
+            this.imprimeStatus();
         }
     },
     desligar: function () {
@@ -15,7 +21,7 @@ const carro = {
         } else {
             this.ligado = false;
             this.velocidade = 0;
-            console.log(`Carro ${this.ligado === false ? "desligado" : "ligado"}. Velocidade: ${this.velocidade}.`)
+            this.imprimeStatus();
         }
     },
     acelerar: function () {
@@ -23,8 +29,7 @@ const carro = {
             console.log("Não é possível acelerar um carro desligado.");
         } else {
             this.velocidade += 10;
-            console.log(`Carro ${this.ligado === false ? "desligado" : "ligado"}. Velocidade: ${this.velocidade}.`)
-
+            this.imprimeStatus();
         }
     },
     desacelerar: function () {
@@ -32,7 +37,7 @@ const carro = {
             console.log("Não é possível desacelerar um carro desligado.");
         } else {
             this.velocidade -= 10;
-            console.log(`Carro ${this.ligado === false ? "desligado" : "ligado"}. Velocidade: ${this.velocidade}.`)
+            this.imprimeStatus();
         }
     }
 }
