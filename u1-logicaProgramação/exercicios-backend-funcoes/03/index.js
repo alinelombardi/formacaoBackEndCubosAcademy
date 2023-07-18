@@ -21,7 +21,7 @@ const carrinho = {
         let produtoExistente = false;
   
         for (const item of this.produtos) {
-          if (item.id === produto.id) {
+          if (item.nome === produto.nome) {
             item.qtd += produto.qtd;
             produtoExistente = true;
             break;
@@ -80,9 +80,9 @@ const carrinho = {
     }
 }
 
-const novaBermuda = {
+const novoItem = {
     id: 2,
-    nome: "Bermuda",
+    nome: "Chinelo",
     qtd: 3,
     precoUnit: 5000
 }
@@ -94,7 +94,7 @@ const novoTenis = {
     precoUnit: 10000
 }
 
-// carrinho.addProduto(novaBermuda);
-// carrinho.addProduto(novoTenis);
+carrinho.addProduto(novoItem);
+carrinho.addProduto(novoTenis);
 
 carrinho.imprimirResumo()

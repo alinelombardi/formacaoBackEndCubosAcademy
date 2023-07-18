@@ -19,37 +19,43 @@ const carro = {
         if(this.ligado === false) {
             console.log("Este carro já está desligado.");
         } else {
-            this.ligado = false;
-            this.velocidade = 0;
-            this.imprimeStatus();
+            if(this.velocidade > 0) {
+                console.log("Não é possíve desligar um carro em movumento.")
+            } else {
+                this.ligado = false;
+                this.velocidade = 0;
+                this.imprimeStatus();
+            }
         }
     },
     acelerar: function () {
         if(this.ligado === false) {
-            console.log("Não é possível acelerar um carro desligado.");
-        } else {
-            this.velocidade += 10;
-            this.imprimeStatus();
+            this.ligado = true;
         }
+        this.velocidade += 10;
+            this.imprimeStatus();
     },
     desacelerar: function () {
         if(this.ligado === false) {
             console.log("Não é possível desacelerar um carro desligado.");
         } else {
             this.velocidade -= 10;
+            if(this.velocidade === 0) {
+                this.ligado = false;
+            }
             this.imprimeStatus();
         }
     }
 }
 
-carro.desligar();
-carro.ligar();
-carro.ligar();
+// carro.desligar();
+// carro.ligar();
+// carro.ligar();
 carro.acelerar();
-carro.acelerar();
-carro.desacelerar();
-carro.desligar();
-carro.acelerar();
-carro.desacelerar();
+// carro.acelerar();
+// carro.desacelerar();
+// carro.desligar();
+// carro.acelerar();
+// carro.desacelerar();
 
 
