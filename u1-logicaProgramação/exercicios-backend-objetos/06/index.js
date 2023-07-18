@@ -21,10 +21,13 @@ const usuarios = [
     },
 ];
 
-const jovens = [];
-const adultos = [];
+
 
 function divideUsuarios(usuarios) {
+
+    const jovens = [];
+const adultos = [];
+
     for(let item of usuarios) {
         if(item.idade < 18) {
             jovens.push(item);

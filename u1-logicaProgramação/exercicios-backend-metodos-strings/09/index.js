@@ -5,6 +5,7 @@ function gerarNickname(nome) {
     const nomeLowerCase = nomeSemEspacos.toLowerCase();
     const tamanhoMaximo = Math.min(nomeLowerCase.length, 12);
     const nickname = `@${nomeLowerCase.slice(0, tamanhoMaximo)}`;
+    console.log(nickname)
   }
   
   gerarNickname(nome);
