@@ -79,7 +79,3 @@ Após executar os métodos, fique a vontade para testar as execuções de formas
 -       Tente revisar os métodos para aplicar a técnica DRY (Don't Repeat Yourself) e excluir (quando possível) toda repetição de código igual ou muito semelhante.
 -       Faça uma segunda validação para permitir que o carro seja desligado **apenas** quando tiver em velocidade zero.
 -   Implemente a **função start/stop** no carro, de forma que quando o carro estiver desligado e for acelerado, ele antes de acelerar, liga o carro. O contrário deve ser aplicado para o desacelerar: se o carro for desacelerado e a **nova** velocidade for zero, ele deve ser desligado.
-
----
-
-

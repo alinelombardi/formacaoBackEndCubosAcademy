@@ -29,7 +29,3 @@ Para o exemplo acima deverá imprimir:
 ```
 Arquivo válido
 ```
-
-Faça o teste com outros exemplos.
-
-Faça commit do resultado.

@@ -12,10 +12,11 @@ Este módulo abordou os seguintes temas técnicos:
 - [Funções](exercicios-backend-funcoes/)
 - [Métodos de String](exercicios-backend-metodos-strings/)
 - [Métodos de Arrays](exercicios-backend-metodos-arrays/)
+- [Métodos de Arrays II](exercicios-backend-metodos-arrays-2/)
 
 Em breve: 
 
-- [Métodos de Arrays II]()
+
 - [Métodos de Arrays III]()
 
 

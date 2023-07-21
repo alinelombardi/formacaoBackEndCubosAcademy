@@ -18,7 +18,3 @@ Para o exemplo acima deverá imprimir:
 ```
 @guidocerquei
 ```
-
-Faça o teste com outros exemplos.
-
-Faça commit do resultado.

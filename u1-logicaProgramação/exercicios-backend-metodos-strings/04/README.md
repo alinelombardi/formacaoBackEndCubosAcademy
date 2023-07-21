@@ -53,7 +53,3 @@ Para o exemplo acima o sistema deverá imprimir:
 ```
 jose@email.com
 ```
-
-Faça o teste com outros exemplos.
-
-Faça commit do resultado.

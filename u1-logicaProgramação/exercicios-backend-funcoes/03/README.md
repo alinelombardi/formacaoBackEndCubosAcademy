@@ -131,7 +131,3 @@ Sempre **no máximo** um deles será aplicado - o que for mais vantajoso para o 
 Para o exemplo da **letra B**, o desconto deverá ser de R$ 30,00.
 
 Para o exemplo da **letra E**, com 8 itens, o desconto deverá ser de R$ 44,00.
-
----
-
-

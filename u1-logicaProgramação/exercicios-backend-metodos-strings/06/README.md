@@ -27,7 +27,3 @@ Será impresso:
 ```
 9 9991-8888
 ```
-
-Faça o teste com outros exemplos.
-
-Faça commit do resultado.

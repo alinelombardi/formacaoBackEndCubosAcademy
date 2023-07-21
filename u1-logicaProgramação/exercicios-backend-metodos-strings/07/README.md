@@ -26,7 +26,3 @@ Dicas:
 | `jose.messias@cubos.`        | E-mail inválido |
 | `.messias@cubos.`            | E-mail inválido |
 | `.messias@cubos`             | E-mail inválido |
-
-Faça o teste com outros exemplos.
-
-Faça commit do resultado.

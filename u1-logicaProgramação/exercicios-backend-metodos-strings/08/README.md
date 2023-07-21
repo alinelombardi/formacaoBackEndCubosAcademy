@@ -13,7 +13,3 @@ Para o exemplo acima deverá imprimir:
 ```
 01102203344
 ```
-
-Faça o teste com outros exemplos.
-
-Faça commit do resultado.

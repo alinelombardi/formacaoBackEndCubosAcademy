@@ -19,7 +19,3 @@ Para o exemplo acima o sistema deverá imprimir:
 ```
 Comentário bloqueado por conter palavras proibidas
 ```
-
-Faça o teste com outros exemplos.
-
-Faça commit do resultado.

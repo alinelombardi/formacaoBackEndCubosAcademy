@@ -17,7 +17,3 @@ Para o exemplo acima o sistema deverá imprimir:
 ```
 aprenda-programar-do-zero-na-cubos-academy
 ```
-
-Faça o teste com outros exemplos.
-
-Faça commit do resultado.
