@@ -30,6 +30,8 @@ O **iFood**, foodtech líder na América Latina, tem como objetivo ser a empresa
 
 ### 🖥️ Módulos da formação: (em construção)
 
-- 🗂️ [Unidade 1 - Lógica de programação e Carreira;](/u1-logicaProgramação/README.md)
+- 🗂️ [Unidade 1 - Lógica de programação e Carreira;](m1-logicaProgramacao/README.md)
+
+- 🗂️ [Unidade 2 - Back-end;](m2-backEnd/README.md)
 
 

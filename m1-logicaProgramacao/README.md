@@ -1,4 +1,4 @@
-# 👩🏼‍💻 Lógica de programação - Em andamento ⏳
+# 👩🏼‍💻 Lógica de programação - Concluído ✅
 
 Este módulo abordou os seguintes temas técnicos: 
 
@@ -13,23 +13,13 @@ Este módulo abordou os seguintes temas técnicos:
 - [Métodos de String](exercicios-backend-metodos-strings/)
 - [Métodos de Arrays](exercicios-backend-metodos-arrays/)
 - [Métodos de Arrays II](exercicios-backend-metodos-arrays-2/)
-
-Em breve: 
-
-
-- [Métodos de Arrays III]()
-
+- [Métodos de Arrays III](exercicios-backend-metodos-arrays-3/)
 
 
 E as softskills:
 
 - [Diversidade e inclusão;](u1-logicaProgramação/carreiras/)
 - [LinkedIn;](u1-logicaProgramação/carreiras/)
-- [Gestão do tempo;](u1-logicaProgramação/carreiras/)
-
-Em breve: 
-
-- Comunicação;
-- Ansiedade e autosabotagem.
-
-
+- [Gestão do tempo;](u1-logicaProgramação/carreiras/) 
+- [Comunicação;](u1-logicaProgramação/carreiras/)
+- [Ansiedade e autosabotagem.](u1-logicaProgramação/carreiras/)

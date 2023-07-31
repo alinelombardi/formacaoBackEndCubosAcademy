@@ -34,8 +34,27 @@ Apresentado por Gabrielle Guido, a aula abordou os seguintes temas:
 
 </br>
 
-## 💡 Comunicação ⏳
+## 💡 Comunicação ✅
+
+Apresentado por Camila Lisboa, a aula abordou os seguintes temas:
+
+- Estilos de Comunicação:
+- Comunicação Escrita;
+- Comunicação Não-Violenta;
+- Empatia;
+- Escuta Ativa.
 
 </br>
 
-## 💡 Ansiedade e autosabotagem ⏳
+## 💡 Ansiedade e Autosabotagem ⏳
+
+Apresentado por Enezita Vieira (psicóloga), a aula abordou os seguintes temas:
+
+- O que é ansiedade?
+- O que é transtorno de ansiedade generalizada?
+- Sintomas;
+- Ansiedade e Autosabotagem;
+- O que é autosabotagem?
+- Qual a causa?
+- Alguns sinais;
+- Dicas para lidar com a autosabotagem.
