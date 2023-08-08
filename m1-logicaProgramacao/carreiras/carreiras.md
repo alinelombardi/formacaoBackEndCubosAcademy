@@ -46,7 +46,7 @@ Apresentado por Camila Lisboa, a aula abordou os seguintes temas:
 
 </br>
 
-## 💡 Ansiedade e Autosabotagem ⏳
+## 💡 Ansiedade e Autosabotagem ✅
 
 Apresentado por Enezita Vieira (psicóloga), a aula abordou os seguintes temas:
 
