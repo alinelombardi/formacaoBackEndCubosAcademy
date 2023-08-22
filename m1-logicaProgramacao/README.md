@@ -18,12 +18,13 @@ Este módulo abordou os seguintes temas técnicos:
 
 E as softskills:
 
-- [Diversidade e inclusão;](carreiras/)
-- [LinkedIn;](carreiras/)
-- [Gestão do tempo;](carreiras/)
-- [Comunicação;](carreiras/)
-- [Ansiedade e autosabotagem.](carreiras/)
+- [Diversidade e inclusão;](carreiras/carreiras.md)
+- [LinkedIn;](carreiras/carreiras.md)
+- [Gestão do tempo;](carreiras/carreiras.md)
+- [Comunicação;](carreiras/carreiras.md)
+- [Ansiedade e autosabotagem.](carreiras/carreiras.md)
 
-Desafio do módulo:
+Desafios do módulo:
 
-- [Desafio técnico]()
+- [Desafio técnico](desafioModulo/README.md) - Exercícios plataforma HackerRank
+- [Desafio Carreira](https://www.linkedin.com/in/aline-lombardi/) - Ajustes Perfil LinkedIn
