@@ -18,8 +18,12 @@ Este módulo abordou os seguintes temas técnicos:
 
 E as softskills:
 
-- [Diversidade e inclusão;](u1-logicaProgramação/carreiras/)
-- [LinkedIn;](u1-logicaProgramação/carreiras/)
-- [Gestão do tempo;](u1-logicaProgramação/carreiras/) 
-- [Comunicação;](u1-logicaProgramação/carreiras/)
-- [Ansiedade e autosabotagem.](u1-logicaProgramação/carreiras/)
+- [Diversidade e inclusão;](carreiras/)
+- [LinkedIn;](carreiras/)
+- [Gestão do tempo;](carreiras/)
+- [Comunicação;](carreiras/)
+- [Ansiedade e autosabotagem.](carreiras/)
+
+Desafio do módulo:
+
+- [Desafio técnico]()

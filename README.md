@@ -26,7 +26,7 @@ O **iFood**, foodtech líder na América Latina, tem como objetivo ser a empresa
 - LinkedIn;
 - Comunicação;
 - Gestão do tempo;
-- Ansiedade e autosabotagem;
+- Ansiedade e autossabotagem;
 - Como dar e receber feedbacks;
 - Carreira Dev;
 - Aprendendo a aprender.
