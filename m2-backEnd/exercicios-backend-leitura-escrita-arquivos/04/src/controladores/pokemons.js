@@ -1,6 +1,6 @@
 const { listarPokemons, detalharPokemon } = require('utils-playground')
 
-const mostrarPokemons = async (require, response) => {
+const mostrarPokemons = async (request, response) => {
     try {
         const pokemons = await listarPokemons(1);
         return response.status(200).json(pokemons);
@@ -10,7 +10,7 @@ const mostrarPokemons = async (require, response) => {
     };
 };
 
-const exibirPokemon = async (require, response) => {
+const exibirPokemon = async (request, response) => {
     const { informacao } = require.params;
 
     try {

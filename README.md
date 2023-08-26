@@ -18,6 +18,7 @@ O **iFood**, foodtech líder na América Latina, tem como objetivo ser a empresa
 - Git e Github;
 - Javascript;
 - Node;
+- Bibliotecas: Express, date-fns, nodemon, lodash, utils-playground, fs;
 - PostgreSQL.
 
 ### 🛠️ Soft Skills abordadas: (em construção)
@@ -29,13 +30,19 @@ O **iFood**, foodtech líder na América Latina, tem como objetivo ser a empresa
 - Ansiedade e autossabotagem;
 - Como dar e receber feedbacks;
 - Carreira Dev;
-- Aprendendo a aprender.
-
+- Resolução de conflitos;
+- Ética em Tecnologia;
+- Aprendendo a aprender;
+- Inteligência Emocional;
+- Metodologias ágeis;
+- Trabalho remoto.
 
 ### 🖥️ Módulos da formação: (em construção)
 
 - 🗂️ [Unidade 1 - Lógica de programação e Carreira;](m1-logicaProgramacao/README.md)
 
 - 🗂️ [Unidade 2 - Back-end;](m2-backEnd/README.md)
+
+- 🗂️ [Unidade 3 - Banco de dados;](m3-bancoDados/README.md)
 
 

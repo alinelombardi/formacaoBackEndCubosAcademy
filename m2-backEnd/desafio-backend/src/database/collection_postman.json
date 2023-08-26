@@ -1,0 +1,662 @@
+{
+	"info": {
+		"_postman_id": "69b72aab-fb50-4e66-993a-14a03892137c",
+		"name": "Desafio",
+		"description": "HAR To Postman Generated Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "15124006"
+	},
+	"item": [
+		{
+			"name": "Listar contas",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "User-Agent",
+						"value": "Insomnia/2023.5.5"
+					}
+				],
+				"url": {
+					"raw": "{{baseURL1}}/contas/?senha_banco=Cubos123Bank",
+					"host": [
+						"{{baseURL1}}"
+					],
+					"path": [
+						"contas",
+						""
+					],
+					"query": [
+						{
+							"key": "senha_banco",
+							"value": "Cubos123Bank"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "not found / 404",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "User-Agent",
+								"value": "Insomnia/2023.5.5"
+							}
+						],
+						"url": "{{baseURL1}}/contas/"
+					},
+					"status": "Not Found",
+					"code": 404,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "2"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"2-l9Fw4VUO7kr8CvBlt4zaMCqXZ0w\""
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 22 Aug 2023 14:27:06 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "application/json; charset=utf-8 content type is not supported in the response body"
+				}
+			]
+		},
+		{
+			"name": "Cadastrar conta",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Insomnia/2023.5.5"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"nome\": \"\",\r\n\t\"cpf\": \"\",\r\n\t\"data_nascimento\": \"\",\r\n\t\"telefone\": \"\",\r\n\t\"email\": \"\",\r\n\t\"senha\": \"\"\r\n}"
+				},
+				"url": "{{baseURL1}}/contas/"
+			},
+			"response": [
+				{
+					"name": " / 400",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "User-Agent",
+								"value": "Insomnia/2023.5.5"
+							}
+						],
+						"url": "{{baseURL1}}/contas/"
+					},
+					"status": "Bad Request",
+					"code": 400,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "97"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"61-74Mrvx8mEMg9Acrt91Zpk8h3NEk\""
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 22 Aug 2023 14:08:37 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "application/json; charset=utf-8 content type is not supported in the response body"
+				}
+			]
+		},
+		{
+			"name": "Alterar usuário",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Insomnia/2023.5.5"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"nome\": \"\",\r\n\t\"cpf\": \"\",\r\n\t\"data_nascimento\": \"\",\r\n\t\"telefone\": \"\",\r\n\t\"email\": \"\",\r\n\t\"senha\": \"\"\r\n}"
+				},
+				"url": "{{baseURL1}}/contas/1/usuario"
+			},
+			"response": [
+				{
+					"name": "no-content / 204",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "User-Agent",
+								"value": "Insomnia/2023.5.5"
+							}
+						],
+						"url": "{{baseURL1}}/contas/1/usuario"
+					},
+					"status": "No Content",
+					"code": 204,
+					"_postman_previewlanguage": "Text",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 21 Aug 2023 22:36:51 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": ""
+				}
+			]
+		},
+		{
+			"name": "Deletar conta",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "User-Agent",
+						"value": "Insomnia/2023.5.5"
+					}
+				],
+				"url": "{{baseURL1}}/contas/3"
+			},
+			"response": [
+				{
+					"name": "not found / 404",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "User-Agent",
+								"value": "Insomnia/2023.5.5"
+							}
+						],
+						"url": "{{baseURL1}}/contas/3"
+					},
+					"status": "Not Found",
+					"code": 404,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "36"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"24-h1URBDGlLcx0d+QlhF+rt2zyeO0\""
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 21 Aug 2023 22:37:28 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "application/json; charset=utf-8 content type is not supported in the response body"
+				}
+			]
+		},
+		{
+			"name": "Depositar",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Insomnia/2023.5.5"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"numero_conta\": \"\",\r\n\t\"valor\": 0\r\n}"
+				},
+				"url": "{{baseURL1}}/transacoes/depositar"
+			},
+			"response": [
+				{
+					"name": "no-content / 204",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "User-Agent",
+								"value": "Insomnia/2023.5.5"
+							}
+						],
+						"url": "{{baseURL1}}/transacoes/depositar"
+					},
+					"status": "No Content",
+					"code": 204,
+					"_postman_previewlanguage": "Text",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 22 Aug 2023 13:54:54 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": ""
+				}
+			]
+		},
+		{
+			"name": "Sacar",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Insomnia/2023.5.5"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"numero_conta\": \"\",\r\n\t\"valor\": 0,\r\n\t\"senha\": \"\"\r\n}"
+				},
+				"url": "{{baseURL1}}/transacoes/sacar"
+			},
+			"response": [
+				{
+					"name": "no-content / 204",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "User-Agent",
+								"value": "Insomnia/2023.5.5"
+							}
+						],
+						"url": "{{baseURL1}}/transacoes/sacar"
+					},
+					"status": "No Content",
+					"code": 204,
+					"_postman_previewlanguage": "Text",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 22 Aug 2023 12:30:23 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": ""
+				}
+			]
+		},
+		{
+			"name": "Transferir",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Insomnia/2023.5.5"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"numero_conta_origem\": \"\",\r\n\t\"numero_conta_destino\": \"\",\r\n\t\"valor\": 0,\r\n\t\"senha\": \"\"\r\n}"
+				},
+				"url": "{{baseURL1}}/transacoes/transferir"
+			},
+			"response": [
+				{
+					"name": "successfully / 200",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "User-Agent",
+								"value": "Insomnia/2023.5.5"
+							}
+						],
+						"url": "{{baseURL1}}/transacoes/transferir"
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "96"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"60-oJBycrhF5JkS3zTrT/QNS+hIU8A\""
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 22 Aug 2023 12:30:46 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "application/json; charset=utf-8 content type is not supported in the response body"
+				}
+			]
+		},
+		{
+			"name": "Exibir extrato",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "User-Agent",
+						"value": "Insomnia/2023.5.5"
+					}
+				],
+				"url": {
+					"raw": "{{baseURL1}}/contas/extrato?senha&numero_conta",
+					"host": [
+						"{{baseURL1}}"
+					],
+					"path": [
+						"contas",
+						"extrato"
+					],
+					"query": [
+						{
+							"key": "senha",
+							"value": null
+						},
+						{
+							"key": "numero_conta",
+							"value": null
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "successfully / 200",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "User-Agent",
+								"value": "Insomnia/2023.5.5"
+							}
+						],
+						"url": "{{baseURL1}}/contas/extrato"
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "149"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"95-1yvOqI8IwJMbQJmEdPh70koQ/qY\""
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 22 Aug 2023 13:54:57 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "application/json; charset=utf-8 content type is not supported in the response body"
+				}
+			]
+		},
+		{
+			"name": "Exibir saldo",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "User-Agent",
+						"value": "Insomnia/2023.5.5"
+					}
+				],
+				"url": {
+					"raw": "{{baseURL1}}/contas/saldo?numero_conta&senha",
+					"host": [
+						"{{baseURL1}}"
+					],
+					"path": [
+						"contas",
+						"saldo"
+					],
+					"query": [
+						{
+							"key": "numero_conta",
+							"value": null
+						},
+						{
+							"key": "senha",
+							"value": null
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "not found / 404",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "User-Agent",
+								"value": "Insomnia/2023.5.5"
+							}
+						],
+						"url": "{{baseURL1}}/contas/saldo"
+					},
+					"status": "Not Found",
+					"code": 404,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "36"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"24-h1URBDGlLcx0d+QlhF+rt2zyeO0\""
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 22 Aug 2023 12:17:05 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "application/json; charset=utf-8 content type is not supported in the response body"
+				}
+			]
+		}
+	],
+	"variable": [
+		{
+			"key": "baseURL1",
+			"value": "http://localhost:3000",
+			"type": "any"
+		}
+	]
+}

@@ -35,8 +35,18 @@ Apresentado por Adalberto Moretti Brito, a aula abordou os seguintes temas:
 
 </br>
 
-## 💡 Ética em Tecnologia ⏳
+## 💡 Ética em Tecnologia ✅
 
+Apresentado por Maria Clara, a aula abordou os seguintes temas:
 
+- Ética Profissional;
+- Ética no desenvolvimento;
+- Privacidade e segurança de dados;
+- Propriedade intelectual e código aberto;
+- Inteligência Artificial.
 
 </br>
+
+## 💡 Desafio ✅
+
+ O desafio de Carreira consisti na atualização do perfil do [GitHub.](https://github.com/alinelombardi)
