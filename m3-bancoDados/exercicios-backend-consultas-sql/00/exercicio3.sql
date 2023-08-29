@@ -1,0 +1,1 @@
+SELECT compositor, composicao, tempo FROM musicas where compositor <> 'Mozart' and tempo > 60*2 AND tempo < 60*50;

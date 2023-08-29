@@ -2,7 +2,7 @@
 
 Este módulo está abordando os seguintes temas técnicos: em construção 🚧
 
-- Consultas SQL;
+- [Consultas SQL;](exercicios-backend-consultas-sql/README.md)
 - Funções PostgreSQL;
 - CRUD SQL;
 - Modelagem de dados;
