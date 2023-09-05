@@ -3,8 +3,8 @@
 Este módulo está abordando os seguintes temas técnicos: em construção 🚧
 
 - [Consultas SQL;](exercicios-backend-consultas-sql/README.md)
-- Funções PostgreSQL;
-- CRUD SQL;
+- [Funções PostgreSQL](exercicios-backend-funcoes-postgresql/README.md);
+- [CRUD SQL](exercicios-backend-crud-sql/README.md);
 - Modelagem de dados;
 - Conexão Node.js com PostgreSQL;
 - Autenticação e Criptografia;
