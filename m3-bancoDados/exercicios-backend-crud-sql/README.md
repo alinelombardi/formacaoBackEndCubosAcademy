@@ -17,4 +17,4 @@ Este repositório é dedicado aos exercícios da aula "CRUD SQL" do Módulo 3 do
 
 ## Exercícios
 
-1. Fazer consultas
+1. CRUD de usuários
