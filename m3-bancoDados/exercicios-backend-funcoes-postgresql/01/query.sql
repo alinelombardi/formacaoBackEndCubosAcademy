@@ -11,7 +11,7 @@ select max(idade) from usuarios;
 select avg(idade) from usuarios where idade >= 18;
 
 -- 5 - Faça uma query que retorna a soma total do estoque de todos os medicamentos das categorias blue e black na tabela farmacia.
-select sum(estoque) from farmacia where categoria = 'blue' or categoria = 'black';
+select categoria, sum(estoque) from farmacia where categoria = 'blue' or categoria = 'black' group by categoria;
 
 -- 6 - Faça uma query que retorna todas as categorias não nulas e a soma do estoque de todos os medicamentos de cada categoria na tabela farmacia.
 select categoria, sum(estoque) from farmacia where categoria is not null group by categoria;
@@ -38,10 +38,10 @@ select nome, idade, email, age(cast(cadastro as timestamp)) as tempo from usuari
 select nome, idade, email, age(cast(cadastro as timestamp)) as tempo from usuarios where idade >= 60;
 
 -- 14 - Faça uma query que retorna a categoria e a quantidade de produtos de cada categoria que não seja nula da tabela farmacia.
-select categoria, sum(estoque) from farmacia where categoria is not null group by categoria;
+select categoria, count(id) from farmacia where categoria is not null group by categoria;
 
 -- 15 - Faça uma query que retorna a idade e a quantidade de registros de cada idade, onde a idade seja maior ou igual a 18 anos, na tabela usuarios.
 select idade, count(*) from usuarios where idade >=18 group by idade;
 
 -- 16 - Faça uma query que retorna as três categorias e a soma do estoque de todos os medicamentos de cada categoria, na tabela farmacia.
-select categoria, sum(estoque) as soma_estoque from farmacia group by categoria;
+select categoria, sum(estoque) as soma_estoque from farmacia group by categoria limit 3;
